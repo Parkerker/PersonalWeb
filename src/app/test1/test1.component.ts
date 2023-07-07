@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./test1.component.css']
 })
 export class Test1Component {
+  title="練習1";
 
   constructor(private router:Router) { } // <-- 注入router:Router
 
