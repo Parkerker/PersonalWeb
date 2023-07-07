@@ -1,0 +1,8 @@
+p{
+    text-align: center;
+    font-family: 'Libre Baskerville', 'Noto Sans TC', serif, sans-serif;
+    font-size: 45px;
+    padding: 50px;
+    padding-bottom: 30px;
+    /* font-weight: 300; *//*讓字體變細*/
+}

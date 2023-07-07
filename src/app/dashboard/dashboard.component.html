@@ -1,0 +1,16 @@
+<button (click)="toSecondComponent()">頂級英雄</button>
+<button (click)="toHeroComponent()">英雄清單</button>
+<!-- <nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet> -->
+
+<h2>TOP 英雄</h2>
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes"
+    routerLink="/detail/{{hero.id}}">
+    {{hero.name}}
+  </a>
+</div>
+<app-messages></app-messages>
