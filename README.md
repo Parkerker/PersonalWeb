@@ -1,32 +1,33 @@
-# PersonalWeb
+# 
 
-# **Academic-Management-System**
-## MariaDB資料庫練習與實際使用
+# **PersonalWeb**
+## Angular 練習與實際使用
 
-# 學舍管理系統 實作DEMO(近期更新 增加美觀)：https://youtu.be/gWcCpfMJ_AA
-## 學舍管理系統 實作DEMO(舊)：https://youtu.be/AjfJ2W9JJpY
+
 # **👇👇 展示部分頁面 👇👇**
 
 
-## 學舍管理平台首頁🏡
-![首頁](https://i.imgur.com/jNh5dz2.jpg "首頁")
+## Angular練習首頁🏡
+![首頁](https://imgur.com/0Dy5fRp.png"首頁")
 
-# **學生功能**
-![學生功能](https://i.imgur.com/6v062JI.jpg "學生功能")
+# **練習1**
+![練習1](https://i.imgur.com/ILaZu19.png "練習1")
 
-## ☝️ 學生登入帳密後能使用之功能
-# **設備報修**
-![設備報修](https://i.imgur.com/xHCQ95Q.jpg "設備報修")
+## ☝️ 應用練習
+# **頂級英雄**
+![頂級英雄](https://i.imgur.com/u38gEHy.png "頂級英雄")
 
-## ☝️ 學舍設備問題報修，以及查看自己報修之物品情況。
-# **新增報修**
-![新增報修](https://i.imgur.com/gSJWSjM.jpg "新增報修")
+## ☝️ 頂級英雄列表
+# **點擊英雄可動態修改**
+![動態修改](https://i.imgur.com/O48wO1n.png "動態修改")
+## ☝️ 原本超級英雄名子
+![動態修改1](https://i.imgur.com/uXXImgA.png "動態修改1")
 
-## ☝️ 可以輸入基本資訊，描述詳細情形，報修情形是readonly 是不能填寫的。
-# **管理員功能**
-![管理員功能](https://i.imgur.com/BaQ7iUC.jpg "管理員功能")
+## ☝️ 動態修改名子
+# **英雄清單**
+![英雄清單](https://i.imgur.com/hEg1eXw.png "英雄清單")
 
-# **簽到記錄修改**
-![簽到記錄修改](https://i.imgur.com/g0aF9L8.jpg "簽到記錄修改")
+# **有Messages顯示當前狀態**
+![顯示狀態](https://i.imgur.com/Kn4vkQn.png "顯示狀態")
 
-## ☝️ 管理進出時間，以及修改查詢。
+## ☝️ 點擊使用英雄後會有紀錄，也可以點擊Clear，清除當前訊息。
