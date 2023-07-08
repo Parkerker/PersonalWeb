@@ -61,8 +61,8 @@ export class HeroService {
     getHero(id: number): Observable<Hero> {
       const url = `${this.heroesUrl}/${id}`;
       return this.http.get<Hero>(url).pipe(
-        tap(_ => this.log(`fetched hero id=${id}`)),
-        catchError(this.handleError<Hero>(`使用之英雄id=${id}`))
+        tap(_ => this.log(`所使用英雄id=${id}`)),
+        catchError(this.handleError<Hero>(`getHero id=${id}`))
       );
     }
     
