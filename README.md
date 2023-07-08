@@ -14,20 +14,28 @@
 ![練習1](https://i.imgur.com/ILaZu19.png "練習1")
 
 ## ☝️ 應用練習
-# **頂級英雄**
-![頂級英雄](https://i.imgur.com/u38gEHy.png "頂級英雄")
 
-## ☝️ 頂級英雄列表
+# **頂級英雄與搜尋**
+![頂級英雄](https://i.imgur.com/HXLp33R.png "頂級英雄")
+## ☝️ 頂級英雄列表及搜尋
+
 # **點擊英雄可動態修改**
-![動態修改](https://i.imgur.com/O48wO1n.png "動態修改")
-## ☝️ 原本超級英雄名子
-![動態修改1](https://i.imgur.com/uXXImgA.png "動態修改1")
+![動態修改儲存](https://i.imgur.com/q2PKVPT.png "動態修改儲存")
+## ☝️ 更新原本超級英雄名子
+![動態儲存後](https://i.imgur.com/MQpqQRQ.png "動態儲存後")
+## ☝️ 修改儲存後名子
 
-## ☝️ 動態修改名子
 # **英雄清單**
-![英雄清單](https://i.imgur.com/hEg1eXw.png "英雄清單")
+![英雄清單](https://i.imgur.com/PU3R8XA.png "英雄清單")
+## ☝️ 新增英雄 海綿寶寶
 
+![新增英雄清單](https://i.imgur.com/eW3930F.png "新增英雄清單")
+## ☝️ 新增英雄兩位英雄後
+
+# **刪除派大星123後**
+![新增英雄清單](https://i.imgur.com/5wAlLi5.png"新增英雄清單")
+## ☝️ 狀態顯示 刪除英雄 id=22
 # **有Messages顯示當前狀態**
-![顯示狀態](https://i.imgur.com/Kn4vkQn.png "顯示狀態")
+![顯示狀態](https://i.imgur.com/reilM4u.png "顯示狀態")
 
 ## ☝️ 點擊使用英雄後會有紀錄，也可以點擊Clear，清除當前訊息。
