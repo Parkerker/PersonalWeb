@@ -12,7 +12,7 @@
 ![練習3-動態廣告](https://imgur.com/M3H8WWk.gif"廣告")
 
 ## Angular練習首頁🏡
-![首頁](https://imgur.com/0Dy5fRp.png"首頁")
+![首頁](https://imgur.com/4y8BDkK.png"首頁")
 
 # **練習1**
 ![練習1](https://i.imgur.com/ILaZu19.png "練習1")
