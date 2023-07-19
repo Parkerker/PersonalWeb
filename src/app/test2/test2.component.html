@@ -1,0 +1,26 @@
+<!-- <p>test2 works!</p> 新增頁面記得 Router 也要去加路徑  -->
+<h1>{{title}}</h1>
+
+
+<a href="./test2/#parent-to-child-on-changes">使用<em>ngOnChanges</em>來更改關卡 ("目前通關關卡")</a><br/>
+<a href="./test2/#parent-to-child-local-var"> 父類別子類別運用("倒數計時器")</a><br/>
+<a href="./test2/#bidirectional-service"> 父類別子類別使用service("任務派發")</a><br/>
+
+<hr>
+<div id="parent-to-child-on-changes">
+  <app-version-parent></app-version-parent>
+</div>
+<a href="/test2/#top" class="to-top">回到最上層</a>
+
+<hr>
+<div id="parent-to-child-local-var">
+  <app-countdown-parent-lv></app-countdown-parent-lv>
+</div>
+<a href="/test2#top" class="to-top">回到最上層</a>
+
+
+<hr>
+<div id="bidirectional-service">
+  <app-mission-control></app-mission-control>
+</div>
+<a href="/test2" class="to-top">回到最上層</a>

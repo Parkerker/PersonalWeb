@@ -17,6 +17,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { Test1Component } from './test1/test1.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { Test2Component } from './test2/test2.component';
+import { VersionParentComponent } from './test2/version-parent.component';
+import { VersionChildComponent } from './test2/version-child.component';
+import { Test2CountdownLocalVarParentComponent, CountdownViewChildParentComponent } from './test2/test2-countdown-parent.component';
+import { Test2CountdownTimerComponent } from './test2/test2-countdown-timer.component';
+//import { Test2VersionParentComponent } from './test2/test2-version-parent.component';
+//import { Test2VersionChildComponent } from './test2/test2-version-child.component';
+import { Test2MissionControlComponent } from './test2/test2-missioncontrol.component';
+import { Test2AstronautComponent } from './test2/test2-astronaut.component';
 
 @NgModule({
   imports: [
@@ -33,6 +42,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
       InMemoryDataService, { dataEncapsulation: false }
     )
   ],
+  exports: [],
   declarations: [
     AppComponent,
     DashboardComponent,
@@ -41,7 +51,16 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     MessagesComponent,
     MainpageComponent,
     Test1Component,
-    HeroSearchComponent
+    HeroSearchComponent,
+    Test2Component,
+    VersionParentComponent,
+    VersionChildComponent,
+    Test2CountdownLocalVarParentComponent,
+    Test2CountdownTimerComponent,
+    CountdownViewChildParentComponent,
+    Test2MissionControlComponent,
+    Test2AstronautComponent 
+    
   ],
   bootstrap: [ AppComponent ]
 })
