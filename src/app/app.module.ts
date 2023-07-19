@@ -26,6 +26,13 @@ import { Test2CountdownTimerComponent } from './test2/test2-countdown-timer.comp
 //import { Test2VersionChildComponent } from './test2/test2-version-child.component';
 import { Test2MissionControlComponent } from './test2/test2-missioncontrol.component';
 import { Test2AstronautComponent } from './test2/test2-astronaut.component';
+import { Test3Component } from './test3/test3.component';
+
+import { HeroJobAdComponent } from './test3/hero-job-ad.component';
+import { AdBannerComponent } from './test3/ad-banner.component';
+import { HeroProfileComponent } from './test3/hero-profile.component';
+import { AdDirective } from './test3/ad.directive';
+import { AdService } from './test3/ad.service';
 
 @NgModule({
   imports: [
@@ -43,6 +50,7 @@ import { Test2AstronautComponent } from './test2/test2-astronaut.component';
     )
   ],
   exports: [],
+  providers: [ AdService ],
   declarations: [
     AppComponent,
     DashboardComponent,
@@ -59,7 +67,13 @@ import { Test2AstronautComponent } from './test2/test2-astronaut.component';
     Test2CountdownTimerComponent,
     CountdownViewChildParentComponent,
     Test2MissionControlComponent,
-    Test2AstronautComponent 
+    Test2AstronautComponent,
+    Test3Component,
+
+    AdBannerComponent,
+    HeroJobAdComponent,
+    HeroProfileComponent,
+    AdDirective
     
   ],
   bootstrap: [ AppComponent ]
