@@ -33,6 +33,8 @@ import { AdBannerComponent } from './test3/ad-banner.component';
 import { HeroProfileComponent } from './test3/hero-profile.component';
 import { AdDirective } from './test3/ad.directive';
 import { AdService } from './test3/ad.service';
+import { Test4Component } from './test4/test4.component';
+import { HighlightDirective } from './test4/highlight.directive';
 
 @NgModule({
   imports: [
@@ -73,7 +75,9 @@ import { AdService } from './test3/ad.service';
     AdBannerComponent,
     HeroJobAdComponent,
     HeroProfileComponent,
-    AdDirective
+    AdDirective,
+    Test4Component,
+    HighlightDirective
     
   ],
   bootstrap: [ AppComponent ]

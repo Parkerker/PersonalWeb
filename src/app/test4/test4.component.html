@@ -1,0 +1,34 @@
+<!-- <p>test4 works!</p> -->
+
+
+<h1>練習4 Attribute Directive</h1>
+
+<h2>選擇醒目顏色</h2>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">綠色
+  <input type="radio" name="colors" (click)="color='yellow'">黃色
+  <input type="radio" name="colors" (click)="color='cyan'">青色
+</div>
+<p [appHighlight]="color">點亮我吧!</p>
+
+<p [appHighlight]="color" defaultColor="violet">
+  觸碰我會發現不一樣的奇蹟!
+</p>
+
+<hr />
+<h2>使用鼠標停留文字上來顯示固定醒目色彩</h2>
+
+<p [appHighlight]="'yellow'">醒目色彩為黃色</p>
+<p appHighlight="orange">醒目色彩為橘色</p>
+
+<hr />
+
+<p>使用插植語法 1+1 : {{ 1 + 1 }}</p>
+
+<h2>ngNonBindable</h2>
+<p>使用 ngNonBindable 來跳脫插值符</p>
+<p ngNonBindable>測試1 : {{ 1 + 1 }}</p>
+
+<h3>ngNonBindable 包含 directive</h3>
+<div ngNonBindable [appHighlight]="'yellow'">測試2 : {{ 1 +1 }},但扔然可以使用醒目色彩.
+</div>
