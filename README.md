@@ -10,6 +10,7 @@
 ![練習2-通關關卡](https://i.imgur.com/QlrJ6BW.gif"通關關卡")
 ![練習2-倒數and任務派發](https://i.imgur.com/WtSFxUT.gif"倒數and任務派發")
 ![練習3-動態廣告](https://imgur.com/M3H8WWk.gif"廣告")
+![練習4-Auttribute](https://imgur.com/X028yVe.gif"醒目色彩")
 
 ## Angular練習首頁🏡
 ![首頁](https://imgur.com/4y8BDkK.png"首頁")
